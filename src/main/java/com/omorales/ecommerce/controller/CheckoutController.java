@@ -10,7 +10,6 @@ import com.omorales.ecommerce.dto.Purchase;
 import com.omorales.ecommerce.dto.PurchaseResponse;
 import com.omorales.ecommerce.service.CheckoutService;
 
-@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("/api/checkout")
 public class CheckoutController {
