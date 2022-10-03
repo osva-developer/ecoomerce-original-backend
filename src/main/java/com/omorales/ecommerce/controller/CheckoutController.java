@@ -11,6 +11,7 @@ import com.omorales.ecommerce.dto.PurchaseResponse;
 import com.omorales.ecommerce.service.CheckoutService;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api/checkout")
 public class CheckoutController {
 
